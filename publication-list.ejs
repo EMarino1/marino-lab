@@ -1,0 +1,48 @@
+<div class="pub-list">
+<%
+let currentYear = null;
+for (let i = 0; i < items.length; i++) {
+  const item = items[i];
+  if (item.year !== currentYear) {
+    currentYear = item.year;
+%>
+<h2 class="pub-year-heading"><%= currentYear %></h2>
+<%
+  }
+%>
+<div class="pub-entry">
+
+<div class="pub-image">
+<% if (item.image) { %>
+<% if (item.url) { %>
+<a href="<%= item.url %>" target="_blank" rel="noopener noreferrer">
+<img src="<%= item.image %>" alt="Graphical TOC">
+</a>
+<% } else { %>
+<img src="<%= item.image %>" alt="Graphical TOC">
+<% } %>
+<% } %>
+</div>
+
+<div class="pub-text">
+<h3 class="pub-title">
+<% if (item.url) { %>
+<a href="<%= item.url %>" target="_blank" rel="noopener noreferrer"><%= item.title %></a>
+<% } else { %>
+<%= item.title %>
+<% } %>
+</h3>
+
+<p class="pub-meta">
+<% if (item.journal) { %>
+<span class="pub-journal"><%= item.journal %></span>
+<% } %>
+<% if (item.year) { %>
+<span class="pub-year">(<%= item.year %>)</span>
+<% } %>
+</p>
+</div>
+
+</div>
+<% } %>
+</div>

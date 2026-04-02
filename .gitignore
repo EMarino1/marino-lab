@@ -1,0 +1,16 @@
+# Quarto temporary/cache files
+.quarto/
+
+# R / Python / Jupyter cache
+.ipynb_checkpoints/
+__pycache__/
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+
+# Quarto preview cache or temporary files
+*_cache/
+
+# Keep rendered website if using docs for GitHub Pages
+# (do NOT ignore docs if GitHub Pages uses docs/)

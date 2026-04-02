@@ -1,0 +1,51 @@
+---
+title: ""
+---
+
+## Designing materials from nanoscale building blocks
+
+We design materials from self-assembled nanoparticles to create new collective properties and functions.
+
+By controlling how nanoscale building blocks organize, we explore how structure gives rise to emergent behavior, light–matter interaction, and responsive materials.
+
+![](images/research/emergent-properties.png){fig-align="center" width="70%"}
+
+*From disordered building blocks to ordered materials with emergent properties.*
+
+---
+
+## Research
+
+::: columns
+::: column
+### Assembly
+
+Understanding how nanoparticles organize into ordered materials and how different assembly pathways lead to distinct structures.
+:::
+
+::: column
+### Light–matter interaction
+
+Designing microscale resonators that confine and amplify light, enabling lasing and sensing at extremely small scales.
+:::
+
+::: column
+### Responsive materials
+
+Creating hierarchical materials that adapt their structure and properties in response to external stimuli.
+:::
+:::
+
+---
+
+## Why this matters
+
+By linking structure to function across length scales, we aim to design materials with new capabilities for sensing, energy, and adaptive systems—where properties emerge from organization rather than individual components.
+
+---
+
+## Join us
+
+We are always interested in motivated students who enjoy hands-on work, open-ended problems, and building new materials from the ground up.
+
+If you are interested, explore our research and get in touch.

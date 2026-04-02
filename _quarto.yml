@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Marino Lab"
+
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+
+      - text: Research
+        href: research.qmd
+
+      - text: People
+        href: people.qmd
+
+      - text: Publications
+        href: publications.qmd
+
+      - text: Where to meet
+        href: where2meet.qmd
+        
+      - text: Join us!
+        href: join.qmd
+
+format:
+  html:
+    theme: superhero
+    css: styles.css
+    anchor-sections: false
+
