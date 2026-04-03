@@ -443,3 +443,289 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* =========================================================
+   CUSTOM FOOTER
+   ========================================================= */
+
+.custom-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+
+  border-top: 1px solid rgba(255,255,255,0.15);
+
+  font-size: 0.95rem;
+}
+
+/* Each block (links / linkedin / copyright) */
+.footer-section {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* Footer links */
+.custom-footer a {
+  color: var(--accent-gold);
+  text-decoration: none;
+}
+
+.custom-footer a:hover {
+  color: var(--accent-gold-light);
+  text-decoration: underline;
+}
+
+/* Copyright styling */
+.footer-copy {
+  opacity: 0.75;
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+  .custom-footer {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
+
+/* Icon styling */
+.custom-footer i {
+  color: var(--accent-gold);
+  font-size: 1.1rem;
+  margin-right: 0.4rem;
+}
+
+/* Divider between links */
+.footer-divider {
+  margin: 0 0.5rem;
+  opacity: 0.6;
+}
+
+/* =========================================================
+   IMAGE GALLERIES
+   =========================================================
+   Two uses:
+   1. Homepage featured gallery
+   2. Publications cover gallery
+
+   HOW TO EDIT:
+   - Change min width in grid-template-columns to make tiles larger/smaller
+   - Change aspect-ratio to make images taller/wider
+   - Change hover transform if you want stronger/weaker movement
+   ========================================================= */
+
+/* Shared gallery container */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+/* Each gallery item */
+.gallery-item {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Shared image card look */
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 4 / 3;        /* Homepage images: moderately wide */
+  object-fit: cover;          /* Crop neatly without distortion */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+.gallery-item:hover img {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.20);
+}
+
+/* Caption under image */
+.gallery-caption {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* Homepage gallery variant */
+.feature-gallery .gallery-item img {
+  aspect-ratio: 4 / 3;
+}
+
+/* Publications gallery variant */
+.cover-gallery {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.cover-gallery .gallery-item img {
+  aspect-ratio: 3 / 4;        /* Better for journal covers */
+  object-fit: cover;
+}
+
+/* Optional: slightly tighter caption for publication covers */
+.cover-gallery .gallery-caption {
+  font-size: 0.9rem;
+}
+
+/* Mobile spacing */
+@media (max-width: 700px) {
+  .image-gallery {
+    gap: 1rem;
+  }
+}
+
+/* =========================================================
+   HERO SLIDESHOW
+   ========================================================= */
+
+.hero-slideshow {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  margin: 2rem auto 3rem auto;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 14px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+}
+
+.hero-slideshow .slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+  pointer-events: none;
+}
+
+.hero-slideshow .slide.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hero-slideshow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+/* Caption overlay */
+.slide-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0));
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* =========================================================
+   PUBLICATION COVER CAROUSEL
+   =========================================================
+   This creates a horizontal scrolling strip of journal covers.
+
+   HOW TO EDIT:
+   - Change min-width to make covers larger/smaller
+   - Change aspect-ratio if your covers are taller/wider
+   - Change gap for more or less space between covers
+   ========================================================= */
+
+.cover-carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  padding: 1rem 0 1.25rem 0;
+  margin: 2rem 0 3rem 0;
+
+  /* smoother scrolling on touch devices */
+  -webkit-overflow-scrolling: touch;
+
+  /* subtle divider above and below */
+  border-top: 1px solid rgba(255,255,255,0.12);
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+/* scrollbar styling */
+.cover-carousel::-webkit-scrollbar {
+  height: 10px;
+}
+
+.cover-carousel::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.06);
+  border-radius: 999px;
+}
+
+.cover-carousel::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.25);
+  border-radius: 999px;
+}
+
+.cover-carousel::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.4);
+}
+
+/* each cover item */
+.cover-item {
+  flex: 0 0 auto;
+  min-width: 150px;
+  max-width: 170px;
+  scroll-snap-align: start;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* cover image */
+.cover-item img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  margin: 0;
+}
+
+/* hover effect */
+.cover-item:hover img {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.24);
+}
+
+/* caption */
+.cover-label {
+  margin-top: 0.7rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+/* mobile */
+@media (max-width: 700px) {
+  .cover-item {
+    min-width: 170px;
+  }
+
+  .cover-label {
+    font-size: 0.9rem;
+  }
+}

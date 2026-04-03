@@ -14,3 +14,5 @@ Thumbs.db
 
 # Keep rendered website if using docs for GitHub Pages
 # (do NOT ignore docs if GitHub Pages uses docs/)
+/.quarto/
+**/*.quarto_ipynb
