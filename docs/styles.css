@@ -174,6 +174,12 @@ a:focus {
   color: var(--text-main) !important;
 }
 
+/* Make only "Marino" bold in the navbar title */
+.navbar-brand strong {
+  color: inherit;
+  font-weight: 700;
+}
+
 /* Navbar hover color */
 .navbar-brand:hover,
 .navbar-nav .nav-link:hover,
@@ -452,8 +458,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
-  flex-wrap: wrap;
+  gap: 2rem;
+  flex-wrap: nowrap;
 
   padding: 1.5rem 0;
   margin-top: 3rem;
