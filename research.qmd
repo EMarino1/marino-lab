@@ -2,19 +2,27 @@
 title: "Research"
 ---
 
-## Building materials from nanoparticles: from components to emergence
+## Building Artificial Materials from Nanocrystals
 
-Over the past decades, researchers have learned how to synthesize nanoparticles with an extraordinary diversity of sizes, shapes, and compositions, spanning much of the periodic table. Each of these building blocks comes with its own set of physical properties.
-
-Our lab asks a simple but powerful question: **what happens when these nanoparticles are combined into larger, organized structures?**
-
-In particular, we are interested in whether self-assembly can be used to create materials with **emergent properties**: properties that do not exist in the individual components, but arise *only* when they are brought together in a precise way.
-
-Our long-term goal is to understand and harness these effects to design new materials that can help address major challenges in energy, climate, and sustainability.
+Over the past decades, researchers have learned how to synthesize nanocrystals with an extraordinary diversity of sizes, shapes, and compositions, spanning much of the periodic table. Each of these building blocks comes with its own set of physical properties.
 
 ---
 
-![](images/research/emergent-properties.png){fig-align="center" width="75%"}
+![](images/research/nanocrystals.png){fig-align="center"}
+
+*Families of colloidal nanocrystals and their physical properties.*
+
+---
+
+**What happens when these nanocrystals are combined into larger, organized structures?**
+
+We are interested in using self-assembly to fabricate artificial materials with **emergent properties**: properties that do not exist in the individual components, but arise *only* when nanocrystals are brought together in a precise manner.
+
+We aim to understand and harness these effects to design new materials that can help address major challenges in energy, climate, and sustainability.
+
+---
+
+![](images/research/emergent-properties.png){fig-align="center"}
 
 *Self-assembly can transform disordered nanoparticle building blocks into ordered superlattices with emergent collective properties.*
 
@@ -32,7 +40,7 @@ A central focus of this work is understanding how ordered phases emerge, includi
 
 ---
 
-![](images/research/structure-understand-v2.png){fig-align="center" width="75%"}
+![](images/research/structure-understand-v3.png){fig-align="center" width="75%"}
 
 *Different assembly pathways can guide nanoparticles toward distinct ordered phases, which we study using in situ SAXS and molecular dynamics simulations.*
 
@@ -50,7 +58,7 @@ We study how resonator shape, composition, and morphology affect light--matter i
 
 ---
 
-![](images/research/light-matter-v2.png){fig-align="center" width="100%"}
+![](images/research/light-matter-v3.png){fig-align="center" width="100%"}
 
 *Droplet microfluidics enables the formation of self-assembled colloidal quantum dot supraparticle resonators that confine and amplify light, supporting lasing as well as sensing and feedback.*
 
@@ -64,7 +72,7 @@ These systems are designed to respond on demand by releasing or uptaking cargo, 
 
 ---
 
-![](images/research/reconfigurable.png){fig-align="center" width="75%"}
+![](images/research/reconfigurable-v2.png){fig-align="center" width="75%"}
 
 *Hierarchical materials respond to external stimuli (light, temperature, chemical environment) through cargo exchange, shape change, and structural switching.*
 
