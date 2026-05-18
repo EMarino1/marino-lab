@@ -30,7 +30,7 @@ Event: Single Photon Workshop (SPW2026), University of Napoli Federico II, Naple
 
 Event: Invited Energy Seminar Series Lecture, EPFL, Lausanne, Switzerland.
 
-![](images/visits/EPFL.jpg){fig-align="center" width="70%"}
+![](images/visits/EPFL.jpeg){fig-align="center" width="70%"}
 
 ---
 
