@@ -22,7 +22,7 @@ We aim to understand and harness these effects to design new materials that can 
 
 ---
 
-![](images/research/emergent-properties.png){fig-align="center"}
+![](images/research/emergent-properties.png){fig-align="center" width="75%"}
 
 *Self-assembly can transform disordered nanoparticle building blocks into ordered superlattices with emergent collective properties.*
 

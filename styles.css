@@ -81,8 +81,8 @@ body::before {
     radial-gradient(circle at 20% 10%, rgba(74, 144, 226, 0.14), transparent 32%),
     radial-gradient(circle at 85% 75%, rgba(242, 166, 90, 0.10), transparent 30%),
 
-    radial-gradient(circle, rgba(255,255,255,0.18) 1.4px, transparent 1.8px),
-    radial-gradient(circle, rgba(255,255,255,0.10) 1.4px, transparent 1.8px),
+    radial-gradient(circle, rgba(255,255,255,0.15) 1.4px, transparent 1.8px),
+    radial-gradient(circle, rgba(255,255,255,0.15) 1.4px, transparent 1.8px),
     var(--bg-main);
 
   background-size:
