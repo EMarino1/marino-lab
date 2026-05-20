@@ -783,8 +783,9 @@ img {
 }
 
 .people-entry img {
-  width: 220px;
-  max-width: 220px;
+  width: 220px !important;
+  max-width: 220px !important;
+  height: auto;
   border-radius: 10px;
   flex-shrink: 0;
   margin: 0;
@@ -795,7 +796,13 @@ img {
   min-width: 0;
 }
 
-/* Stack image and text earlier on tablets/phones */
+.people-text h2,
+.people-text h3,
+.people-text h4 {
+  margin-top: 0;
+}
+
+/* Stack image and text on tablets/phones, but keep photo controlled */
 @media (max-width: 900px) {
   .people-entry {
     flex-direction: column;
@@ -803,14 +810,7 @@ img {
   }
 
   .people-entry img {
-    width: 220px;
-    max-width: 80%;
+    width: 220px !important;
+    max-width: 220px !important;
   }
-}
-
-/* Remove extra top spacing in People page headings */
-.people-text h2,
-.people-text h3,
-.people-text h4 {
-  margin-top: 0;
 }
