@@ -6,13 +6,11 @@ title: "Research"
 
 Over the past decades, researchers have learned how to synthesize nanocrystals with an extraordinary diversity of sizes, shapes, and compositions, spanning much of the periodic table. Each of these building blocks comes with its own set of physical properties.
 
----
+::: {.figure}
+![](images/research/nanocrystals.png){fig-align="center" width="100%"}
 
-![](images/research/nanocrystals.png){fig-align="center"}
+:::
 
-*Families of colloidal nanocrystals and their physical properties.*
-
----
 
 **What happens when these nanocrystals are combined into larger, organized structures?**
 

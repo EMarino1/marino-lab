@@ -770,3 +770,47 @@ img {
     font-size: 0.9rem;
   }
 }
+
+/* =========================================================
+   PEOPLE PAGE LAYOUT
+   ========================================================= */
+
+.people-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.people-entry img {
+  width: 220px;
+  max-width: 220px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.people-text {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Stack image and text earlier on tablets/phones */
+@media (max-width: 900px) {
+  .people-entry {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .people-entry img {
+    width: 220px;
+    max-width: 80%;
+  }
+}
+
+/* Remove extra top spacing in People page headings */
+.people-text h2,
+.people-text h3,
+.people-text h4 {
+  margin-top: 0;
+}

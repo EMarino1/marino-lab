@@ -4,12 +4,12 @@ title: "People"
 
 ## Faculty
 
-::: {.columns}
-::: {.column width="25%"}
-![](images/Emanuele.jfif){width=180px}
-:::
+::: {.people-entry}
 
-::: {.column width="75%"}
+![](images/Emanuele.jfif)
+
+::: {.people-text}
+
 ### Prof. Emanuele Marino
 
 **Principal Investigator**
@@ -22,6 +22,7 @@ Dr. Marino has secured competitive national and European funding (including Hori
 
 
 Email: [emanuele.marino@unipa.it](mailto:emanuele.marino@unipa.it)
+
 :::
 :::
 
@@ -29,12 +30,12 @@ Email: [emanuele.marino@unipa.it](mailto:emanuele.marino@unipa.it)
 
 ## PhD Students
 
-::: {.columns}
-::: {.column width="25%"}
-![](images/Saranya.jpeg){width=180px}
-:::
+::: {.people-entry}
 
-::: {.column width="75%"}
+![](images/Saranya.jpeg)
+
+::: {.people-text}
+
 ### Saranya Subramanian
 
 **PhD Student**
@@ -42,6 +43,7 @@ Email: [emanuele.marino@unipa.it](mailto:emanuele.marino@unipa.it)
 Saranya joined the group as a PhD student in 2024. She holds a MSc in chemistry from India. Her focus is to explore non-toxic nanocrystals as solar shapers to improve photosynthetic efficiency of plants. She is particularly interested in supraparticle assembly and enjoys exploring its possibilities for photonics applications. She brings an enthusiastic energy to the group, as well as freshly prepared home-cooked delicacies on special occasions. 
 
 Email: [saranya.subramanian@unipa.it](mailto:saranya.subramanian@unipa.it)
+
 :::
 :::
 
@@ -49,12 +51,12 @@ Email: [saranya.subramanian@unipa.it](mailto:saranya.subramanian@unipa.it)
 
 ## Alumni
 
-::: {.columns}
-::: {.column width="25%"}
-![](images/Francesco.jpeg){width=180px}
-:::
+::: {.people-entry}
 
-::: {.column width="75%"}
+![](images/Francesco.jpeg)
+
+::: {.people-text}
+
 ### Francesco Minutella
 
 **BSc Student**
@@ -62,15 +64,16 @@ Email: [saranya.subramanian@unipa.it](mailto:saranya.subramanian@unipa.it)
 Francesco completed his Bachelor's thesis at the University of Palermo, focusing on the synthesis and characterization of CuInS₂/ZnS nanocrystals.
 
 He is currently pursuing his MSc at the University of Pisa, Italy.
+
 :::
 :::
 
-::: {.columns}
-::: {.column width="25%"}
-![](images/Hira.jfif){width=180px}
-:::
+::: {.people-entry}
 
-::: {.column width="75%"}
+![](images/Hira.jfif)
+
+::: {.people-text}
+
 ### Hira Aman
 
 **MSc Student**
@@ -78,6 +81,7 @@ He is currently pursuing his MSc at the University of Pisa, Italy.
 Hira completed her Master’s thesis at the University of Palermo, focusing on the solvent-dependent optical properties and aggregation behavior of Cd₃₇S₂₀ nanoclusters using advanced spectroscopic techniques.
 
 She is currently pursuing her PhD at the University of Reggio Calabria, Italy.
+
 :::
 :::
 
