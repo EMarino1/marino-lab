@@ -14,15 +14,15 @@ Where to meet *around the world*:
 
 Event: Italian Physical Society Meeting (SIF-2026), University of Florence, Florence, Italy.
 
-![](images/visits/SIF.png){fig-align="center" width="70%"}
+![](images/visits/SIF-2026.jpg){fig-align="center" width="70%"}
 
 ---
 
-**July 2026**: Emanuele will attend the Single Photon Workshop (SPW2026).<br>
+**June 2026**: Emanuele will attend the 7th Italian Soft Days Conference (ISoDays).<br>
 
-Event: Single Photon Workshop (SPW2026), University of Napoli Federico II, Naples, Italy.
+Event: 7th Italian Soft Days Conference (ISoDays), University of Napoli Federico II, Naples, Italy.
 
-![](images/visits/Naples-2026-07.png){fig-align="center" width="70%"}
+![](images/visits/ISoDays.jpg){fig-align="center" width="70%"}
 
 ---
 
@@ -31,6 +31,12 @@ Event: Single Photon Workshop (SPW2026), University of Napoli Federico II, Naple
 Event: Invited Energy Seminar Series Lecture, EPFL, Lausanne, Switzerland.
 
 ![](images/visits/EPFL.jpeg){fig-align="center" width="70%"}
+
+Saranya will give the Quantum Materials Colloquiuum at the Institute of Physics of the University of Amsterdam, while visiting the group of Prof. Peter Schall.<br>
+
+Event: QMat Seminar, IoP-UvA, Amsterdam, The Netherlands.
+
+![](images/visits/Saranya-IoP-QMat-26May2026.jpeg){fig-align="center" width="70%"}
 
 ---
 
