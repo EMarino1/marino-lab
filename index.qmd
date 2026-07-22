@@ -2,6 +2,12 @@
 title: ""
 ---
 
+::: {.hero-logo}
+
+![](images/logo/marinolab-logo.png){width=320}
+
+:::
+
 ## Designing materials from nanoscale building blocks
 
 We design materials from self-assembled nanoparticles to create new collective properties and functions.

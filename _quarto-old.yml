@@ -4,7 +4,7 @@ project:
 
 website:
   favicon: images/logo/marinolab-favicon.png
-  title: "Marino Lab"
+  title: "<strong>Marino</strong> Lab"
 
   navbar:
     logo: images/logo/marinolab-favicon.png
@@ -21,10 +21,10 @@ website:
       - text: Publications
         href: publications.qmd
 
-      - text: Collaborators
+      - text: Collaborative Network
         href: collaborators.qmd
 
-      - text: Events
+      - text: Events & Conferences
         href: where2meet.qmd
         
       - text: Join us!
