@@ -1,7 +1,0 @@
----
-title: "Publications"
-bibliography: references.bib
-nocite: |
-  @*
-csl: journal-of-the-american-chemical-society.csl
----
