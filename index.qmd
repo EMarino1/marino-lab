@@ -14,9 +14,7 @@ We design materials from self-assembled nanoparticles to create new collective p
 
 By controlling how nanoscale building blocks organize, we explore how structure gives rise to emergent behavior, light–matter interaction, and responsive materials.
 
-![](images/research/emergent-properties.png){fig-align="center" width="75%"}
-
-*From disordered building blocks to ordered materials with emergent properties.*
+![](images/research/marinolab-research.png){fig-align="center" width="100%"}
 
 ---
 
@@ -95,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ---
 
-## Research
+## Research Themes
 
 ::: columns
 ::: column

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publications – Marino Lab</title>
+<title>marino_lab_website_maintenance_manual – Marino Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,27 +23,42 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -159,147 +174,104 @@ div.csl-indent {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Publications</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
+<section id="marino-lab-website-maintenance-manual" class="level1">
+<h1>Marino Lab Website Maintenance Manual</h1>
+<p>This manual explains how to maintain and publish the Marino Lab website.</p>
+<section id="website-stack" class="level2">
+<h2 data-anchor-id="website-stack">Website stack</h2>
+<ul>
+<li>Quarto</li>
+<li>Git</li>
+<li>GitHub Pages</li>
+<li>Custom domain: https://marinolab.unipa.it</li>
+</ul>
+</section>
+<section id="standard-workflow" class="level2">
+<h2 data-anchor-id="standard-workflow">Standard workflow</h2>
+<ol type="1">
+<li>Edit <code>.qmd</code>, <code>.css</code>, or image files.</li>
+<li>Preview:</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>quarto preview</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ol start="3" type="1">
+<li><p>Stop preview (Ctrl+C)</p></li>
+<li><p>Render:</p></li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>quarto render</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ol start="5" type="1">
+<li>Commit:</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>git add <span class="op">.</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>git commit <span class="op">-</span>m <span class="st">"Describe your changes"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ol start="6" type="1">
+<li>Publish:</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>git push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="important-files" class="level2">
+<h2 data-anchor-id="important-files">Important files</h2>
+<ul>
+<li><code>_quarto.yml</code> — configuration</li>
+<li><code>styles.css</code> — global styling</li>
+<li><code>collaborators.css</code> — collaborator styling</li>
+<li><code>CNAME</code> — custom domain (never delete)</li>
+<li><code>images/logo/marinolab-logo.png</code></li>
+<li><code>images/logo/marinolab-favicon.png</code></li>
+</ul>
+<p>Never edit files inside <code>docs/</code>; they are generated automatically.</p>
+</section>
+<section id="git-problems" class="level2">
+<h2 data-anchor-id="git-problems">Git problems</h2>
+<p>If push is rejected:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>git pull <span class="op">--</span>rebase origin main</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>git push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Never use <code>git push --force</code>.</p>
+</section>
+<section id="mobile-testing" class="level2">
+<h2 data-anchor-id="mobile-testing">Mobile testing</h2>
+<p>Open Chrome:</p>
+<ul>
+<li>F12</li>
+<li>Ctrl+Shift+M</li>
+<li>Select Pixel 7</li>
+<li>Refresh</li>
+</ul>
+</section>
+<section id="backups" class="level2">
+<h2 data-anchor-id="backups">Backups</h2>
+<p>Zip the entire <code>marino-lab</code> folder after major updates.</p>
+</section>
+<section id="never-do" class="level2">
+<h2 data-anchor-id="never-do">Never do</h2>
+<ul>
+<li>Delete <code>CNAME</code></li>
+<li>Delete <code>docs/CNAME</code></li>
+<li>Rename <code>docs</code></li>
+<li>Remove the custom domain</li>
+<li>Edit generated HTML in <code>docs</code></li>
+</ul>
+</section>
+<section id="checklist" class="level2">
+<h2 data-anchor-id="checklist">Checklist</h2>
+<ul>
+<li>Edit</li>
+<li>Preview</li>
+<li>Render</li>
+<li>Commit</li>
+<li>Push</li>
+<li>Verify https://marinolab.unipa.it</li>
+</ul>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-doi:10.1021/acs.jpclett.5c03840" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(1) </div><div class="csl-right-inline">Reale, M.; Madonia, A.; Agnello, S.; Cannas, M.; Marino, E.; Sciortino, A.; Messina, F. A Versatile Approach to Stabilize Whispering Gallery Microresonators Toward Reliable Photonic Labeling. <em>The Journal of Physical Chemistry Letters</em> <strong>2026</strong>, <em>17</em> (7), 2042–2048. <a href="https://doi.org/10.1021/acs.jpclett.5c03840">https://doi.org/10.1021/acs.jpclett.5c03840</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acsnano.5c15222" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(2) </div><div class="csl-right-inline">Gonzalez, C.; Choi, Y. C.; Chen, G.; Xu, J.; Kang, C.; Marino, E.; Kagan, C. R.; Murray, C. B. Cavity-Mediated Radiative Energy Transfer Enables Stable, Low-Threshold Lasing in Hybrid Quantum Dot-Nanoplatelet Supraparticles. <em>ACS Nano</em> <strong>2026</strong>, <em>20</em> (2), 2114–2124. <a href="https://doi.org/10.1021/acsnano.5c15222">https://doi.org/10.1021/acsnano.5c15222</a>.</div>
-</div>
-<div id="ref-https://doi.org/10.1002/adom.202502501" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(3) </div><div class="csl-right-inline">Castronovo, P.; Gonzalez, C.; Ammirati, G.; Yang, S.; Catone, D.; Paladini, A.; O’Keeffe, P.; Kagan, C. R.; Murray, C. B.; Emanuele, A.; Marino, E.; Messina, F.; Sciortino, A. Interparticle Distance Controls Ultrafast Photodynamics in Crystalline Gold Superstructures. <em>Advanced Optical Materials</em> <strong>2025</strong>, <em>13</em> (30), e02501. https://doi.org/<a href="https://doi.org/10.1002/adom.202502501">https://doi.org/10.1002/adom.202502501</a>.</div>
-</div>
-<div id="ref-https://doi.org/10.1002/adom.202500838" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(4) </div><div class="csl-right-inline">Reale, M.; Castronovo, P.; Cannas, M.; Marino, E.; Sciortino, A.; Messina, F. Excitation-Wavelength-Tunable Lasing in Individual Quantum Dot Superparticles. <em>Advanced Optical Materials</em> <strong>2025</strong>, <em>13</em> (22), 2500838. https://doi.org/<a href="https://doi.org/10.1002/adom.202500838">https://doi.org/10.1002/adom.202500838</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.nanolett.5c00643" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(5) </div><div class="csl-right-inline">Castronovo, P.; Reale, M.; Rigter, S. A.; Kagan, C. R.; Murray, C. B.; Lorenzo, S.; Garnett, E. C.; Schall, P.; Marino, E.; Sciortino, A.; Messina, F. Ultrafast Switching of Whispering Gallery Modes in Quantum Dot Superparticles. <em>Nano Letters</em> <strong>2025</strong>, <em>25</em> (14), 5828–5835. <a href="https://doi.org/10.1021/acs.nanolett.5c00643">https://doi.org/10.1021/acs.nanolett.5c00643</a>.</div>
-</div>
-<div id="ref-D5NR01288K" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(6) </div><div class="csl-right-inline">Passante, R.; Rizzuto, L.; Schall, P.; Marino, E. Quantum and Critical Casimir Effects: Bridging Fluctuation Physics and Nanotechnology. <em>Nanoscale</em> <strong>2025</strong>, <em>17</em>, 13982–13997. <a href="https://doi.org/10.1039/D5NR01288K">https://doi.org/10.1039/D5NR01288K</a>.</div>
-</div>
-<div id="ref-https://doi.org/10.1002/adfm.202402079" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(7) </div><div class="csl-right-inline">Reale, M.; Marino, E.; Maçôas, E.; Ciccarello, F.; Cannas, M.; Cruz, C. M.; Campaña, A. G.; Sciortino, A.; Messina, F. Carbon-Based Photonic Microlabels Based on Fluorescent Nanographene-Polystyrene Composites. <em>Advanced Functional Materials</em> <strong>2024</strong>, <em>34</em> (37), 2402079. https://doi.org/<a href="https://doi.org/10.1002/adfm.202402079">https://doi.org/10.1002/adfm.202402079</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acsnano.4c03260" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(8) </div><div class="csl-right-inline">Rahaman, M.; Marino, E.; Joly, A. G.; Stevens, C. E.; Song, S.; Alfieri, A.; Jiang, Z.; O’Callahan, B. T.; Rosen, D. J.; Jo, K.; Kim, G.; Hendrickson, J. R.; El-Khoury, P. Z.; Murray, C.; Jariwala, D. Tunable Localized Charge Transfer Excitons in Nanoplatelet–2D Chalcogenide van Der Waals Heterostructures. <em>ACS Nano</em> <strong>2024</strong>, <em>18</em> (23), 15185–15193. <a href="https://doi.org/10.1021/acsnano.4c03260">https://doi.org/10.1021/acsnano.4c03260</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.cgd.4c00260" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(9) </div><div class="csl-right-inline">Marino, E.; LaCour, R. A.; Kodger, T. E. Emergent Properties from Three-Dimensional Assemblies of (Nano)particles in Confined Spaces. <em>Crystal Growth &amp; Design</em> <strong>2024</strong>, <em>24</em> (14), 6060–6080. <a href="https://doi.org/10.1021/acs.cgd.4c00260">https://doi.org/10.1021/acs.cgd.4c00260</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.chemmater.3c03209" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(10) </div><div class="csl-right-inline">Marino, E.; Vo, T.; Gonzalez, C.; Rosen, D. J.; Neuhaus, S. J.; Sciortino, A.; Bharti, H.; Keller, A. W.; Kagan, C. R.; Cannas, M.; Messina, F.; Glotzer, S. C.; Murray, C. B. Porous Magneto-Fluorescent Superparticles by Rapid Emulsion Densification. <em>Chemistry of Materials</em> <strong>2024</strong>, <em>36</em> (8), 3683–3696. <a href="https://doi.org/10.1021/acs.chemmater.3c03209">https://doi.org/10.1021/acs.chemmater.3c03209</a>.</div>
-</div>
-<div id="ref-marino2024crystallization" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(11) </div><div class="csl-right-inline"><span class="nocase">Marino, E.; LaCour, R. A.; Moore, T. C.; Dongen, S. W. van; Keller, A. W.; An, D.; Yang, S.; Rosen, D. J.; Gouget, G.; Tsai, E. H.; others</span>. Crystallization of Binary Nanocrystal Superlattices and the Relevance of Short-Range Attraction. <em>Nature Synthesis</em> <strong>2024</strong>, <em>3</em> (1), 111–122.</div>
-</div>
-<div id="ref-doi:10.1021/acs.langmuir.3c00933" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(12) </div><div class="csl-right-inline">Marino, E.; Jiang, Z.; Kodger, T. E.; Murray, C. B.; Schall, P. Controlled Assembly of CdSe Nanoplatelet Thin Films and Nanowires. <em>Langmuir</em> <strong>2023</strong>, <em>39</em> (36), 12533–12540. <a href="https://doi.org/10.1021/acs.langmuir.3c00933">https://doi.org/10.1021/acs.langmuir.3c00933</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.chemrev.3c00097" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(13) </div><div class="csl-right-inline">Nguyen, H. A.; Dixon, G.; Dou, F. Y.; Gallagher, S.; Gibbs, S.; Ladd, D. M.; Marino, E.; Ondry, J. C.; Shanahan, J. P.; Vasileiadou, E. S.; Barlow, S.; Gamelin, D. R.; Ginger, D. S.; Jonas, D. M.; Kanatzidis, M. G.; Marder, S. R.; Morton, D.; Murray, C. B.; Owen, J. S.; Talapin, D. V.; Toney, M. F.; Cossairt, B. M. Design Rules for Obtaining Narrow Luminescence from Semiconductors Made in Solution. <em>Chemical Reviews</em> <strong>2023</strong>, <em>123</em> (12), 7890–7952. <a href="https://doi.org/10.1021/acs.chemrev.3c00097">https://doi.org/10.1021/acs.chemrev.3c00097</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.nanolett.3c00299" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(14) </div><div class="csl-right-inline">Marino, E.; Rosen, D. J.; Yang, S.; Tsai, E. H. R.; Murray, C. B. Temperature-Controlled Reversible Formation and Phase Transformation of 3D Nanocrystal Superlattices Through in Situ Small-Angle x-Ray Scattering. <em>Nano Letters</em> <strong>2023</strong>, <em>23</em> (10), 4250–4257. <a href="https://doi.org/10.1021/acs.nanolett.3c00299">https://doi.org/10.1021/acs.nanolett.3c00299</a>.</div>
-</div>
-<div id="ref-jo2023direct" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(15) </div><div class="csl-right-inline"><span class="nocase">Jo, K.; Marino, E.; Lynch, J.; Jiang, Z.; Gogotsi, N.; Darlington, T. P.; Soroush, M.; Schuck, P. J.; Borys, N. J.; Murray, C. B.; others</span>. Direct Nano-Imaging of Light-Matter Interactions in Nanoscale Excitonic Emitters. <em>Nature Communications</em> <strong>2023</strong>, <em>14</em> (1), 2649.</div>
-</div>
-<div id="ref-kumar2023photonically" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(16) </div><div class="csl-right-inline"><span class="nocase">Kumar, P.; Vo, T.; Cha, M.; Visheratina, A.; Kim, J.-Y.; Xu, W.; Schwartz, J.; Simon, A.; Katz, D.; Nicu, V. P.; others</span>. Photonically Active Bowtie Nanoassemblies with Chirality Continuum. <em>Nature</em> <strong>2023</strong>, <em>615</em> (7952), 418–424.</div>
-</div>
-<div id="ref-doi:10.1021/acs.nanolett.2c04498" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(17) </div><div class="csl-right-inline">Neuhaus, S. J.; Marino, E.; Murray, C. B.; Kagan, C. R. Frequency Stabilization and Optically Tunable Lasing in Colloidal Quantum Dot Superparticles. <em>Nano Letters</em> <strong>2023</strong>, <em>23</em> (2), 645–651. <a href="https://doi.org/10.1021/acs.nanolett.2c04498">https://doi.org/10.1021/acs.nanolett.2c04498</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.nanolett.2c01011" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(18) </div><div class="csl-right-inline">Marino, E.; Bharti, H.; Xu, J.; Kagan, C. R.; Murray, C. B. Nanocrystal Superparticles with Whispering-Gallery Modes Tunable Through Chemical and Optical Triggers. <em>Nano Letters</em> <strong>2022</strong>, <em>22</em> (12), 4765–4773. <a href="https://doi.org/10.1021/acs.nanolett.2c01011">https://doi.org/10.1021/acs.nanolett.2c01011</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acsmaterialslett.2c00174" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(19) </div><div class="csl-right-inline">Rosen, D. J.; Foucher, A. C.; Lee, J. D.; Yang, S.; Marino, E.; Stach, E. A.; Murray, C. B. Microwave Heating of Nanocrystals for Rapid, Low-Aggregation Intermetallic Phase Transformations. <em>ACS Materials Letters</em> <strong>2022</strong>, <em>4</em> (5), 823–830. <a href="https://doi.org/10.1021/acsmaterialslett.2c00174">https://doi.org/10.1021/acsmaterialslett.2c00174</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.chemmater.2c00039" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(20) </div><div class="csl-right-inline">Marino, E.; Dongen, S. W. van; Neuhaus, S. J.; Li, W.; Keller, A. W.; Kagan, C. R.; Kodger, T. E.; Murray, C. B. Monodisperse Nanocrystal Superparticles Through a Source–Sink Emulsion System. <em>Chemistry of Materials</em> <strong>2022</strong>, <em>34</em> (6), 2779–2789. <a href="https://doi.org/10.1021/acs.chemmater.2c00039">https://doi.org/10.1021/acs.chemmater.2c00039</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.nanolett.1c04761" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(21) </div><div class="csl-right-inline">Keller, A. W.; Marino, E.; An, D.; Neuhaus, S. J.; Elbert, K. C.; Murray, C. B.; Kagan, C. R. Sub-5 Nm Anisotropic Pattern Transfer via Colloidal Lithography of a Self-Assembled GdF3 Nanocrystal Monolayer. <em>Nano Letters</em> <strong>2022</strong>, <em>22</em> (5), 1992–2000. <a href="https://doi.org/10.1021/acs.nanolett.1c04761">https://doi.org/10.1021/acs.nanolett.1c04761</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.jpcc.2c00608" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(22) </div><div class="csl-right-inline">Rosen, D. J.; Yang, S.; Marino, E.; Jiang, Z.; Murray, C. B. In Situ EXAFS-Based Nanothermometry of Heterodimer Nanocrystals Under Induction Heating. <em>The Journal of Physical Chemistry C</em> <strong>2022</strong>, <em>126</em> (7), 3623–3634. <a href="https://doi.org/10.1021/acs.jpcc.2c00608">https://doi.org/10.1021/acs.jpcc.2c00608</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acsanm.1c04542" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(23) </div><div class="csl-right-inline">Burel, C.; Ibrahim, O.; Marino, E.; Bharti, H.; Murray, C. B.; Donnio, B.; Fakhraai, Z.; Dreyfus, R. Tunable Plasmonic Microcapsules with Embedded Noble Metal Nanoparticles for Optical Microsensing. <em>ACS Applied Nano Materials</em> <strong>2022</strong>, <em>5</em> (2), 2828–2838. <a href="https://doi.org/10.1021/acsanm.1c04542">https://doi.org/10.1021/acsanm.1c04542</a>.</div>
-</div>
-<div id="ref-D2SM01224C" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(24) </div><div class="csl-right-inline">Rose, K. A.; Marino, E.; O’Bryan, C. S.; Murray, C. B.; Lee, D.; Composto, R. J. Nanoparticle Dynamics in Hydrogel Networks with Controlled Defects. <em>Soft Matter</em> <strong>2022</strong>, <em>18</em>, 9045–9056. <a href="https://doi.org/10.1039/D2SM01224C">https://doi.org/10.1039/D2SM01224C</a>.</div>
-</div>
-<div id="ref-D0NH00670J" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(25) </div><div class="csl-right-inline">Marino, E.; Vasilyev, O. A.; Kluft, B. B.; Stroink, M. J. B.; Kondrat, S.; Schall, P. Controlled Deposition of Nanoparticles with Critical Casimir Forces. <em>Nanoscale Horiz.</em> <strong>2021</strong>, <em>6</em>, 751–758. <a href="https://doi.org/10.1039/D0NH00670J">https://doi.org/10.1039/D0NH00670J</a>.</div>
-</div>
-<div id="ref-D0NR09076J" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(26) </div><div class="csl-right-inline">Vasilyev, O. A.; Marino, E.; Kluft, B. B.; Schall, P.; Kondrat, S. Debye Vs. Casimir: Controlling the Structure of Charged Nanoparticles Deposited on a Substrate. <em>Nanoscale</em> <strong>2021</strong>, <em>13</em>, 6475–6488. <a href="https://doi.org/10.1039/D0NR09076J">https://doi.org/10.1039/D0NR09076J</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acsnano.0c06188" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(27) </div><div class="csl-right-inline">Marino, E.; Sciortino, A.; Berkhout, A.; MacArthur, K. E.; Heggen, M.; Gregorkiewicz, T.; Kodger, T. E.; Capretti, A.; Murray, C. B.; Koenderink, A. F.; Messina, F.; Schall, P. Simultaneous Photonic and Excitonic Coupling in Spherical Quantum Dot Supercrystals. <em>ACS Nano</em> <strong>2020</strong>, <em>14</em> (10), 13806–13815. <a href="https://doi.org/10.1021/acsnano.0c06188">https://doi.org/10.1021/acsnano.0c06188</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.nanolett.0c02005" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(28) </div><div class="csl-right-inline">Tang, Y.; Gomez, L.; Lesage, A.; Marino, E.; Kodger, T. E.; Meijer, J.-M.; Kolpakov, P.; Meng, J.; Zheng, K.; Gregorkiewicz, T.; Schall, P. Highly Stable Perovskite Supercrystals via Oil-in-Oil Templating. <em>Nano Letters</em> <strong>2020</strong>, <em>20</em> (8), 5997–6004. <a href="https://doi.org/10.1021/acs.nanolett.0c02005">https://doi.org/10.1021/acs.nanolett.0c02005</a>.</div>
-</div>
-<div id="ref-doi:10.1126/science.aaz7949" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(29) </div><div class="csl-right-inline">Jiang, W.; Qu, Z.; Kumar, P.; Vecchio, D.; Wang, Y.; Ma, Y.; Bahng, J. H.; Bernardino, K.; Gomes, W. R.; Colombari, F. M.; Lozada-Blanco, A.; Veksler, M.; Marino, E.; Simon, A.; Murray, C.; Muniz, S. R.; Moura, A. F. de; Kotov, N. A. Emergence of Complexity in Hierarchically Organized Chiral Particles. <em>Science</em> <strong>2020</strong>, <em>368</em> (6491), 642–648. <a href="https://doi.org/10.1126/science.aaz7949">https://doi.org/10.1126/science.aaz7949</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.jpcc.0c02805" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(30) </div><div class="csl-right-inline">Marino, E.; Keller, A. W.; An, D.; Dongen, S. van; Kodger, T. E.; MacArthur, K. E.; Heggen, M.; Kagan, C. R.; Murray, C. B.; Schall, P. Favoring the Growth of High-Quality, Three-Dimensional Supercrystals of Nanocrystals. <em>The Journal of Physical Chemistry C</em> <strong>2020</strong>, <em>124</em> (20), 11256–11264. <a href="https://doi.org/10.1021/acs.jpcc.0c02805">https://doi.org/10.1021/acs.jpcc.0c02805</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.jpcc.9b02033" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(31) </div><div class="csl-right-inline">Marino, E.; Balazs, D. M.; Crisp, R. W.; Hermida-Merino, D.; Loi, M. A.; Kodger, T. E.; Schall, P. Controlling Superstructure–Property Relationships via Critical Casimir Assembly of Quantum Dots. <em>The Journal of Physical Chemistry C</em> <strong>2019</strong>, <em>123</em> (22), 13451–13457. <a href="https://doi.org/10.1021/acs.jpcc.9b02033">https://doi.org/10.1021/acs.jpcc.9b02033</a>.</div>
-</div>
-<div id="ref-10.1063/1.5053885" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(32) </div><div class="csl-right-inline">Pevere, F.; Treskow, C. von; Marino, E.; Anwar, M.; Bruhn, B.; Sychugov, I.; Linnros, J. X-Ray Radiation Hardness and Influence on Blinking in Si and CdSe Quantum Dots. <em>Applied Physics Letters</em> <strong>2018</strong>, <em>113</em> (25), 253103. <a href="https://doi.org/10.1063/1.5053885">https://doi.org/10.1063/1.5053885</a>.</div>
-</div>
-<div id="ref-https://doi.org/10.1002/adma.201803433" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(33) </div><div class="csl-right-inline">Marino, E.; Kodger, T. E.; Wegdam, G. H.; Schall, P. Revealing Driving Forces in Quantum Dot Supercrystal Assembly. <em>Advanced Materials</em> <strong>2018</strong>, <em>30</em> (43), 1803433. https://doi.org/<a href="https://doi.org/10.1002/adma.201803433">https://doi.org/10.1002/adma.201803433</a>.</div>
-</div>
-<div id="ref-https://doi.org/10.1002/smll.201702098" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(34) </div><div class="csl-right-inline">Dam, B. van; Nie, H.; Ju, B.; Marino, E.; Paulusse, J. M. J.; Schall, P.; Li, M.; Dohnalová, K. Excitation-Dependent Photoluminescence from Single-Carbon Dots. <em>Small</em> <strong>2017</strong>, <em>13</em> (48), 1702098. https://doi.org/<a href="https://doi.org/10.1002/smll.201702098">https://doi.org/10.1002/smll.201702098</a>.</div>
-</div>
-<div id="ref-de2017comparison" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(35) </div><div class="csl-right-inline">De Weerd, C.; Shin, Y.; Marino, E.; Kim, J.; Lee, H.; Saeed, S.; Gregorkiewicz, T. Comparison of the Optical Properties of Graphene and Alkyl-Terminated Si and Ge Quantum Dots. <em>Scientific Reports</em> <strong>2017</strong>, <em>7</em> (1), 14463.</div>
-</div>
-<div id="ref-https://doi.org/10.1002/ange.201705685" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(36) </div><div class="csl-right-inline">Marino, E.; Kodger, T. E.; Crisp, R. W.; Timmerman, D.; MacArthur, K. E.; Heggen, M.; Schall, P. Repairing Nanoparticle Surface Defects. <em>Angewandte Chemie</em> <strong>2017</strong>, <em>129</em> (44), 13983–13987. https://doi.org/<a href="https://doi.org/10.1002/ange.201705685">https://doi.org/10.1002/ange.201705685</a>.</div>
-</div>
-<div id="ref-MARINO2016154" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(37) </div><div class="csl-right-inline">Marino, E.; Kodger, T. E.; Hove, J. B. ten; Velders, A. H.; Schall, P. Assembling Quantum Dots via Critical Casimir Forces. <em>Solar Energy Materials and Solar Cells</em> <strong>2016</strong>, <em>158</em>, 154–159. https://doi.org/<a href="https://doi.org/10.1016/j.solmat.2016.01.016">https://doi.org/10.1016/j.solmat.2016.01.016</a>.</div>
-</div>
-<div id="ref-doi:10.1021/acs.jpclett.6b01590" class="csl-entry" role="listitem">
-<div class="csl-left-margin">(38) </div><div class="csl-right-inline">Sciortino, A.; Marino, E.; Dam, B. van; Schall, P.; Cannas, M.; Messina, F. Solvatochromism Unravels the Emission Mechanism of Carbon Nanodots. <em>The Journal of Physical Chemistry Letters</em> <strong>2016</strong>, <em>7</em> (17), 3419–3423. <a href="https://doi.org/10.1021/acs.jpclett.6b01590">https://doi.org/10.1021/acs.jpclett.6b01590</a>.</div>
-</div>
-</div></section></div></main> <!-- /main -->
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {

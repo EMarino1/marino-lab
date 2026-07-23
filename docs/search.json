@@ -35,18 +35,39 @@
     "text": "Research directions\n\nUnderstanding how nanoparticles assemble into ordered materials\nIf self-assembly is to become a true fabrication strategy, we need to understand how individual nanoparticles organize into larger structures.\nWe study this process across a range of systems, including emulsion-templated assembly, temperature-driven assembly, and depletion-driven assembly. To follow these processes in real time, we use small-angle X-ray scattering (SAXS), both at synchrotron facilities such as ESRF and NSLS-II and with in-house instruments. These experiments are combined with molecular dynamics simulations to connect observed structures with the underlying physical mechanisms.\nA central focus of this work is understanding how ordered phases emerge, including single-component crystals, binary nanoparticle crystals, and quasicrystalline structures.\n\n\n\n\n\n\nDifferent assembly pathways can guide nanoparticles toward distinct ordered phases, which we study using in situ SAXS and molecular dynamics simulations.\n\n\n\nLight–matter interaction in self-assembled microresonators\nWe investigate how self-assembled structures can control and amplify light.\nUsing droplet microfluidics, we fabricate microscale resonators based on colloidal quantum dots, leveraging a source–sink approach recently developed and patented in our lab. These spherical dielectric structures can confine light along their surface, creating a feedback loop through repeated cycles of spontaneous and stimulated emission.\nThis enables phenomena such as lasing in extremely small volumes, potentially down to the scale of a red blood cell.\nWe study how resonator shape, composition, and morphology affect light–matter interactions, with the goal of developing ultra-small lasers able to monitor their environment with high precision and provide optical, thermal, or mechanical feedback.\n\n\n\n\n\n\nDroplet microfluidics enables the formation of self-assembled colloidal quantum dot supraparticle resonators that confine and amplify light, supporting lasing as well as sensing and feedback.\n\n\n\nResponsive and hierarchical materials\nWe are interested in developing hierarchical materials that can undergo sharp or gradual transitions in structure and properties in response to specific energy inputs.\nThese systems are designed to respond on demand by releasing or uptaking cargo, changing shape, melting or crystallizing, or transitioning between distinct structural states. More broadly, we explore how hierarchical organization can produce complex dynamic behaviors and new forms of responsive matter.\n\n\n\n\n\n\nHierarchical materials respond to external stimuli (light, temperature, chemical environment) through cargo exchange, shape change, and structural switching."
   },
   {
-    "objectID": "publications-old.html",
-    "href": "publications-old.html",
-    "title": "Publications",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "References\n\n(1) Reale, M.; Madonia, A.; Agnello, S.; Cannas, M.; Marino, E.; Sciortino, A.; Messina, F. A Versatile Approach to Stabilize Whispering Gallery Microresonators Toward Reliable Photonic Labeling. The Journal of Physical Chemistry Letters 2026, 17 (7), 2042–2048. https://doi.org/10.1021/acs.jpclett.5c03840.\n\n\n(2) Gonzalez, C.; Choi, Y. C.; Chen, G.; Xu, J.; Kang, C.; Marino, E.; Kagan, C. R.; Murray, C. B. Cavity-Mediated Radiative Energy Transfer Enables Stable, Low-Threshold Lasing in Hybrid Quantum Dot-Nanoplatelet Supraparticles. ACS Nano 2026, 20 (2), 2114–2124. https://doi.org/10.1021/acsnano.5c15222.\n\n\n(3) Castronovo, P.; Gonzalez, C.; Ammirati, G.; Yang, S.; Catone, D.; Paladini, A.; O’Keeffe, P.; Kagan, C. R.; Murray, C. B.; Emanuele, A.; Marino, E.; Messina, F.; Sciortino, A. Interparticle Distance Controls Ultrafast Photodynamics in Crystalline Gold Superstructures. Advanced Optical Materials 2025, 13 (30), e02501. https://doi.org/https://doi.org/10.1002/adom.202502501.\n\n\n(4) Reale, M.; Castronovo, P.; Cannas, M.; Marino, E.; Sciortino, A.; Messina, F. Excitation-Wavelength-Tunable Lasing in Individual Quantum Dot Superparticles. Advanced Optical Materials 2025, 13 (22), 2500838. https://doi.org/https://doi.org/10.1002/adom.202500838.\n\n\n(5) Castronovo, P.; Reale, M.; Rigter, S. A.; Kagan, C. R.; Murray, C. B.; Lorenzo, S.; Garnett, E. C.; Schall, P.; Marino, E.; Sciortino, A.; Messina, F. Ultrafast Switching of Whispering Gallery Modes in Quantum Dot Superparticles. Nano Letters 2025, 25 (14), 5828–5835. https://doi.org/10.1021/acs.nanolett.5c00643.\n\n\n(6) Passante, R.; Rizzuto, L.; Schall, P.; Marino, E. Quantum and Critical Casimir Effects: Bridging Fluctuation Physics and Nanotechnology. Nanoscale 2025, 17, 13982–13997. https://doi.org/10.1039/D5NR01288K.\n\n\n(7) Reale, M.; Marino, E.; Maçôas, E.; Ciccarello, F.; Cannas, M.; Cruz, C. M.; Campaña, A. G.; Sciortino, A.; Messina, F. Carbon-Based Photonic Microlabels Based on Fluorescent Nanographene-Polystyrene Composites. Advanced Functional Materials 2024, 34 (37), 2402079. https://doi.org/https://doi.org/10.1002/adfm.202402079.\n\n\n(8) Rahaman, M.; Marino, E.; Joly, A. G.; Stevens, C. E.; Song, S.; Alfieri, A.; Jiang, Z.; O’Callahan, B. T.; Rosen, D. J.; Jo, K.; Kim, G.; Hendrickson, J. R.; El-Khoury, P. Z.; Murray, C.; Jariwala, D. Tunable Localized Charge Transfer Excitons in Nanoplatelet–2D Chalcogenide van Der Waals Heterostructures. ACS Nano 2024, 18 (23), 15185–15193. https://doi.org/10.1021/acsnano.4c03260.\n\n\n(9) Marino, E.; LaCour, R. A.; Kodger, T. E. Emergent Properties from Three-Dimensional Assemblies of (Nano)particles in Confined Spaces. Crystal Growth & Design 2024, 24 (14), 6060–6080. https://doi.org/10.1021/acs.cgd.4c00260.\n\n\n(10) Marino, E.; Vo, T.; Gonzalez, C.; Rosen, D. J.; Neuhaus, S. J.; Sciortino, A.; Bharti, H.; Keller, A. W.; Kagan, C. R.; Cannas, M.; Messina, F.; Glotzer, S. C.; Murray, C. B. Porous Magneto-Fluorescent Superparticles by Rapid Emulsion Densification. Chemistry of Materials 2024, 36 (8), 3683–3696. https://doi.org/10.1021/acs.chemmater.3c03209.\n\n\n(11) Marino, E.; LaCour, R. A.; Moore, T. C.; Dongen, S. W. van; Keller, A. W.; An, D.; Yang, S.; Rosen, D. J.; Gouget, G.; Tsai, E. H.; others. Crystallization of Binary Nanocrystal Superlattices and the Relevance of Short-Range Attraction. Nature Synthesis 2024, 3 (1), 111–122.\n\n\n(12) Marino, E.; Jiang, Z.; Kodger, T. E.; Murray, C. B.; Schall, P. Controlled Assembly of CdSe Nanoplatelet Thin Films and Nanowires. Langmuir 2023, 39 (36), 12533–12540. https://doi.org/10.1021/acs.langmuir.3c00933.\n\n\n(13) Nguyen, H. A.; Dixon, G.; Dou, F. Y.; Gallagher, S.; Gibbs, S.; Ladd, D. M.; Marino, E.; Ondry, J. C.; Shanahan, J. P.; Vasileiadou, E. S.; Barlow, S.; Gamelin, D. R.; Ginger, D. S.; Jonas, D. M.; Kanatzidis, M. G.; Marder, S. R.; Morton, D.; Murray, C. B.; Owen, J. S.; Talapin, D. V.; Toney, M. F.; Cossairt, B. M. Design Rules for Obtaining Narrow Luminescence from Semiconductors Made in Solution. Chemical Reviews 2023, 123 (12), 7890–7952. https://doi.org/10.1021/acs.chemrev.3c00097.\n\n\n(14) Marino, E.; Rosen, D. J.; Yang, S.; Tsai, E. H. R.; Murray, C. B. Temperature-Controlled Reversible Formation and Phase Transformation of 3D Nanocrystal Superlattices Through in Situ Small-Angle x-Ray Scattering. Nano Letters 2023, 23 (10), 4250–4257. https://doi.org/10.1021/acs.nanolett.3c00299.\n\n\n(15) Jo, K.; Marino, E.; Lynch, J.; Jiang, Z.; Gogotsi, N.; Darlington, T. P.; Soroush, M.; Schuck, P. J.; Borys, N. J.; Murray, C. B.; others. Direct Nano-Imaging of Light-Matter Interactions in Nanoscale Excitonic Emitters. Nature Communications 2023, 14 (1), 2649.\n\n\n(16) Kumar, P.; Vo, T.; Cha, M.; Visheratina, A.; Kim, J.-Y.; Xu, W.; Schwartz, J.; Simon, A.; Katz, D.; Nicu, V. P.; others. Photonically Active Bowtie Nanoassemblies with Chirality Continuum. Nature 2023, 615 (7952), 418–424.\n\n\n(17) Neuhaus, S. J.; Marino, E.; Murray, C. B.; Kagan, C. R. Frequency Stabilization and Optically Tunable Lasing in Colloidal Quantum Dot Superparticles. Nano Letters 2023, 23 (2), 645–651. https://doi.org/10.1021/acs.nanolett.2c04498.\n\n\n(18) Marino, E.; Bharti, H.; Xu, J.; Kagan, C. R.; Murray, C. B. Nanocrystal Superparticles with Whispering-Gallery Modes Tunable Through Chemical and Optical Triggers. Nano Letters 2022, 22 (12), 4765–4773. https://doi.org/10.1021/acs.nanolett.2c01011.\n\n\n(19) Rosen, D. J.; Foucher, A. C.; Lee, J. D.; Yang, S.; Marino, E.; Stach, E. A.; Murray, C. B. Microwave Heating of Nanocrystals for Rapid, Low-Aggregation Intermetallic Phase Transformations. ACS Materials Letters 2022, 4 (5), 823–830. https://doi.org/10.1021/acsmaterialslett.2c00174.\n\n\n(20) Marino, E.; Dongen, S. W. van; Neuhaus, S. J.; Li, W.; Keller, A. W.; Kagan, C. R.; Kodger, T. E.; Murray, C. B. Monodisperse Nanocrystal Superparticles Through a Source–Sink Emulsion System. Chemistry of Materials 2022, 34 (6), 2779–2789. https://doi.org/10.1021/acs.chemmater.2c00039.\n\n\n(21) Keller, A. W.; Marino, E.; An, D.; Neuhaus, S. J.; Elbert, K. C.; Murray, C. B.; Kagan, C. R. Sub-5 Nm Anisotropic Pattern Transfer via Colloidal Lithography of a Self-Assembled GdF3 Nanocrystal Monolayer. Nano Letters 2022, 22 (5), 1992–2000. https://doi.org/10.1021/acs.nanolett.1c04761.\n\n\n(22) Rosen, D. J.; Yang, S.; Marino, E.; Jiang, Z.; Murray, C. B. In Situ EXAFS-Based Nanothermometry of Heterodimer Nanocrystals Under Induction Heating. The Journal of Physical Chemistry C 2022, 126 (7), 3623–3634. https://doi.org/10.1021/acs.jpcc.2c00608.\n\n\n(23) Burel, C.; Ibrahim, O.; Marino, E.; Bharti, H.; Murray, C. B.; Donnio, B.; Fakhraai, Z.; Dreyfus, R. Tunable Plasmonic Microcapsules with Embedded Noble Metal Nanoparticles for Optical Microsensing. ACS Applied Nano Materials 2022, 5 (2), 2828–2838. https://doi.org/10.1021/acsanm.1c04542.\n\n\n(24) Rose, K. A.; Marino, E.; O’Bryan, C. S.; Murray, C. B.; Lee, D.; Composto, R. J. Nanoparticle Dynamics in Hydrogel Networks with Controlled Defects. Soft Matter 2022, 18, 9045–9056. https://doi.org/10.1039/D2SM01224C.\n\n\n(25) Marino, E.; Vasilyev, O. A.; Kluft, B. B.; Stroink, M. J. B.; Kondrat, S.; Schall, P. Controlled Deposition of Nanoparticles with Critical Casimir Forces. Nanoscale Horiz. 2021, 6, 751–758. https://doi.org/10.1039/D0NH00670J.\n\n\n(26) Vasilyev, O. A.; Marino, E.; Kluft, B. B.; Schall, P.; Kondrat, S. Debye Vs. Casimir: Controlling the Structure of Charged Nanoparticles Deposited on a Substrate. Nanoscale 2021, 13, 6475–6488. https://doi.org/10.1039/D0NR09076J.\n\n\n(27) Marino, E.; Sciortino, A.; Berkhout, A.; MacArthur, K. E.; Heggen, M.; Gregorkiewicz, T.; Kodger, T. E.; Capretti, A.; Murray, C. B.; Koenderink, A. F.; Messina, F.; Schall, P. Simultaneous Photonic and Excitonic Coupling in Spherical Quantum Dot Supercrystals. ACS Nano 2020, 14 (10), 13806–13815. https://doi.org/10.1021/acsnano.0c06188.\n\n\n(28) Tang, Y.; Gomez, L.; Lesage, A.; Marino, E.; Kodger, T. E.; Meijer, J.-M.; Kolpakov, P.; Meng, J.; Zheng, K.; Gregorkiewicz, T.; Schall, P. Highly Stable Perovskite Supercrystals via Oil-in-Oil Templating. Nano Letters 2020, 20 (8), 5997–6004. https://doi.org/10.1021/acs.nanolett.0c02005.\n\n\n(29) Jiang, W.; Qu, Z.; Kumar, P.; Vecchio, D.; Wang, Y.; Ma, Y.; Bahng, J. H.; Bernardino, K.; Gomes, W. R.; Colombari, F. M.; Lozada-Blanco, A.; Veksler, M.; Marino, E.; Simon, A.; Murray, C.; Muniz, S. R.; Moura, A. F. de; Kotov, N. A. Emergence of Complexity in Hierarchically Organized Chiral Particles. Science 2020, 368 (6491), 642–648. https://doi.org/10.1126/science.aaz7949.\n\n\n(30) Marino, E.; Keller, A. W.; An, D.; Dongen, S. van; Kodger, T. E.; MacArthur, K. E.; Heggen, M.; Kagan, C. R.; Murray, C. B.; Schall, P. Favoring the Growth of High-Quality, Three-Dimensional Supercrystals of Nanocrystals. The Journal of Physical Chemistry C 2020, 124 (20), 11256–11264. https://doi.org/10.1021/acs.jpcc.0c02805.\n\n\n(31) Marino, E.; Balazs, D. M.; Crisp, R. W.; Hermida-Merino, D.; Loi, M. A.; Kodger, T. E.; Schall, P. Controlling Superstructure–Property Relationships via Critical Casimir Assembly of Quantum Dots. The Journal of Physical Chemistry C 2019, 123 (22), 13451–13457. https://doi.org/10.1021/acs.jpcc.9b02033.\n\n\n(32) Pevere, F.; Treskow, C. von; Marino, E.; Anwar, M.; Bruhn, B.; Sychugov, I.; Linnros, J. X-Ray Radiation Hardness and Influence on Blinking in Si and CdSe Quantum Dots. Applied Physics Letters 2018, 113 (25), 253103. https://doi.org/10.1063/1.5053885.\n\n\n(33) Marino, E.; Kodger, T. E.; Wegdam, G. H.; Schall, P. Revealing Driving Forces in Quantum Dot Supercrystal Assembly. Advanced Materials 2018, 30 (43), 1803433. https://doi.org/https://doi.org/10.1002/adma.201803433.\n\n\n(34) Dam, B. van; Nie, H.; Ju, B.; Marino, E.; Paulusse, J. M. J.; Schall, P.; Li, M.; Dohnalová, K. Excitation-Dependent Photoluminescence from Single-Carbon Dots. Small 2017, 13 (48), 1702098. https://doi.org/https://doi.org/10.1002/smll.201702098.\n\n\n(35) De Weerd, C.; Shin, Y.; Marino, E.; Kim, J.; Lee, H.; Saeed, S.; Gregorkiewicz, T. Comparison of the Optical Properties of Graphene and Alkyl-Terminated Si and Ge Quantum Dots. Scientific Reports 2017, 7 (1), 14463.\n\n\n(36) Marino, E.; Kodger, T. E.; Crisp, R. W.; Timmerman, D.; MacArthur, K. E.; Heggen, M.; Schall, P. Repairing Nanoparticle Surface Defects. Angewandte Chemie 2017, 129 (44), 13983–13987. https://doi.org/https://doi.org/10.1002/ange.201705685.\n\n\n(37) Marino, E.; Kodger, T. E.; Hove, J. B. ten; Velders, A. H.; Schall, P. Assembling Quantum Dots via Critical Casimir Forces. Solar Energy Materials and Solar Cells 2016, 158, 154–159. https://doi.org/https://doi.org/10.1016/j.solmat.2016.01.016.\n\n\n(38) Sciortino, A.; Marino, E.; Dam, B. van; Schall, P.; Cannas, M.; Messina, F. Solvatochromism Unravels the Emission Mechanism of Carbon Nanodots. The Journal of Physical Chemistry Letters 2016, 7 (17), 3419–3423. https://doi.org/10.1021/acs.jpclett.6b01590."
+    "text": "Principal Investigator\nDr. Emanuele Marino is a physicist exploring how nanoscale organization can be harnessed to create materials with emergent optical and electronic functionality. His research centers on nanocrystal self-assembly as a route to programmable superstructures for photonics, optoelectronics, and energy applications.\nBy combining concepts from soft matter physics with advanced materials design, his work seeks to control light–matter interactions through structure, enabling new paradigms in superlattice engineering. He has authored over 30 peer-reviewed publications, including papers in Nature, Science, and Nano Letters, with several featured on journal covers.\nDr. Marino has secured competitive national and European funding (including Horizon Europe) and has conducted experiments at major synchrotron facilities in France and the United States. He has held research appointments at the University of Pennsylvania and the University of Amsterdam and serves as a reviewer for leading journals and funding agencies.\nEmail: emanuele.marino@unipa.it"
   },
   {
-    "objectID": "outreach.html",
-    "href": "outreach.html",
-    "title": "Outreach",
+    "objectID": "people.html#faculty",
+    "href": "people.html#faculty",
+    "title": "People",
     "section": "",
-    "text": "Outreach activities…"
+    "text": "Principal Investigator\nDr. Emanuele Marino is a physicist exploring how nanoscale organization can be harnessed to create materials with emergent optical and electronic functionality. His research centers on nanocrystal self-assembly as a route to programmable superstructures for photonics, optoelectronics, and energy applications.\nBy combining concepts from soft matter physics with advanced materials design, his work seeks to control light–matter interactions through structure, enabling new paradigms in superlattice engineering. He has authored over 30 peer-reviewed publications, including papers in Nature, Science, and Nano Letters, with several featured on journal covers.\nDr. Marino has secured competitive national and European funding (including Horizon Europe) and has conducted experiments at major synchrotron facilities in France and the United States. He has held research appointments at the University of Pennsylvania and the University of Amsterdam and serves as a reviewer for leading journals and funding agencies.\nEmail: emanuele.marino@unipa.it"
+  },
+  {
+    "objectID": "people.html#phd-students",
+    "href": "people.html#phd-students",
+    "title": "People",
+    "section": "PhD Students",
+    "text": "PhD Students\n\n\n\nSaranya Subramanian\nPhD Student\nSaranya joined the group as a PhD student in 2024. She holds a MSc in chemistry from India. Her focus is to explore non-toxic nanocrystals as solar shapers to improve photosynthetic efficiency of plants. She is particularly interested in supraparticle assembly and enjoys exploring its possibilities for photonics applications. She brings an enthusiastic energy to the group, as well as freshly prepared home-cooked delicacies on special occasions.\nEmail: saranya.subramanian@unipa.it"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n\nFrancesco Minutella\nBSc Student\nFrancesco completed his Bachelor’s thesis at the University of Palermo, focusing on the synthesis and characterization of CuInS₂/ZnS nanocrystals.\nHe is currently pursuing his MSc at the University of Pisa, Italy.\n\n\n\n\n\nHira Aman\nMSc Student\nHira completed her Master’s thesis at the University of Palermo, focusing on the solvent-dependent optical properties and aggregation behavior of Cd₃₇S₂₀ nanoclusters using advanced spectroscopic techniques.\nShe is currently pursuing her PhD at the University of Reggio Calabria, Italy."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Latest updates from the lab…"
   },
   {
     "objectID": "join.html",
@@ -123,7 +144,7 @@
     "href": "index.html#designing-materials-from-nanoscale-building-blocks",
     "title": "Marino Lab",
     "section": "Designing materials from nanoscale building blocks",
-    "text": "Designing materials from nanoscale building blocks\nWe design materials from self-assembled nanoparticles to create new collective properties and functions.\nBy controlling how nanoscale building blocks organize, we explore how structure gives rise to emergent behavior, light–matter interaction, and responsive materials.\n\n\n\n\n\nFrom disordered building blocks to ordered materials with emergent properties."
+    "text": "Designing materials from nanoscale building blocks\nWe design materials from self-assembled nanoparticles to create new collective properties and functions.\nBy controlling how nanoscale building blocks organize, we explore how structure gives rise to emergent behavior, light–matter interaction, and responsive materials."
   },
   {
     "objectID": "index.html#featured-highlights",
@@ -133,11 +154,11 @@
     "text": "Featured highlights\n\n\n  \n    \n    Monolayer of superparamagnetic iron oxide nanocrystals.\n  \n\n\n    \n    Nanowires of assembled semiconductor cadmium selenide nanoplatelets.\n  \n\n  \n    \n    Monolayer and bilayer of semiconductor cadmium selenide / cadmium sulfide core/shell nanocrystals.\n  \n\n  \n    \n    Monolayer of infrared plasmonic fluorine-indium co-doped cadmium oxide nanocrystals.\n  \n\n  \n    \n    Nanoscale phase separation of crystals of gold and lead sulfide nanocrystals.\n  \n\n  \n    \n    Binary magneto-semiconductor crystal pathway on a unary semiconductor crystal sea.\n  \n\n  \n    \n    Binary plasmonic-semiconductor crystalline supraparticle.\n  \n\n  \n    \n    Microfluidic production of monodisperse droplets containing nanocrystals.\n  \n\n  \n    \n    Monodisperse droplets containing nanocrystals.\n  \n\n\n    \n    Microfluidic generation of optical resonators."
   },
   {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
+    "objectID": "index.html#research-themes",
+    "href": "index.html#research-themes",
     "title": "Marino Lab",
-    "section": "Research",
-    "text": "Research\n\n\n\nAssembly\nUnderstanding how nanoparticles organize into ordered materials and how different assembly pathways lead to distinct structures.\n\n\n\nLight–matter interaction\nDesigning microscale resonators that confine and amplify light, enabling lasing and sensing at extremely small scales.\n\n\n\nResponsive materials\nCreating hierarchical materials that adapt their structure and properties in response to external stimuli."
+    "section": "Research Themes",
+    "text": "Research Themes\n\n\n\nAssembly\nUnderstanding how nanoparticles organize into ordered materials and how different assembly pathways lead to distinct structures.\n\n\n\nLight–matter interaction\nDesigning microscale resonators that confine and amplify light, enabling lasing and sensing at extremely small scales.\n\n\n\nResponsive materials\nCreating hierarchical materials that adapt their structure and properties in response to external stimuli."
   },
   {
     "objectID": "index.html#why-this-matters",
@@ -154,39 +175,74 @@
     "text": "Join us\nWe are always interested in motivated students who enjoy hands-on work, open-ended problems, and building new materials from the ground up.\nIf you are interested, explore our research and get in touch."
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
+    "objectID": "Marino_Lab_Website_Maintenance_Manual.html",
+    "href": "Marino_Lab_Website_Maintenance_Manual.html",
+    "title": "Marino Lab Website Maintenance Manual",
     "section": "",
-    "text": "Latest updates from the lab…"
+    "text": "This manual explains how to maintain and publish the Marino Lab website.\n\n\n\nQuarto\nGit\nGitHub Pages\nCustom domain: https://marinolab.unipa.it\n\n\n\n\n\nEdit .qmd, .css, or image files.\nPreview:\n\nquarto preview\n\nStop preview (Ctrl+C)\nRender:\n\nquarto render\n\nCommit:\n\ngit add .\ngit commit -m \"Describe your changes\"\n\nPublish:\n\ngit push\n\n\n\n\n_quarto.yml — configuration\nstyles.css — global styling\ncollaborators.css — collaborator styling\nCNAME — custom domain (never delete)\nimages/logo/marinolab-logo.png\nimages/logo/marinolab-favicon.png\n\nNever edit files inside docs/; they are generated automatically.\n\n\n\nIf push is rejected:\ngit pull --rebase origin main\ngit push\nNever use git push --force.\n\n\n\nOpen Chrome:\n\nF12\nCtrl+Shift+M\nSelect Pixel 7\nRefresh\n\n\n\n\nZip the entire marino-lab folder after major updates.\n\n\n\n\nDelete CNAME\nDelete docs/CNAME\nRename docs\nRemove the custom domain\nEdit generated HTML in docs\n\n\n\n\n\nEdit\nPreview\nRender\nCommit\nPush\nVerify https://marinolab.unipa.it"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
+    "objectID": "Marino_Lab_Website_Maintenance_Manual.html#website-stack",
+    "href": "Marino_Lab_Website_Maintenance_Manual.html#website-stack",
+    "title": "Marino Lab Website Maintenance Manual",
     "section": "",
-    "text": "Principal Investigator\nDr. Emanuele Marino is a physicist exploring how nanoscale organization can be harnessed to create materials with emergent optical and electronic functionality. His research centers on nanocrystal self-assembly as a route to programmable superstructures for photonics, optoelectronics, and energy applications.\nBy combining concepts from soft matter physics with advanced materials design, his work seeks to control light–matter interactions through structure, enabling new paradigms in superlattice engineering. He has authored over 30 peer-reviewed publications, including papers in Nature, Science, and Nano Letters, with several featured on journal covers.\nDr. Marino has secured competitive national and European funding (including Horizon Europe) and has conducted experiments at major synchrotron facilities in France and the United States. He has held research appointments at the University of Pennsylvania and the University of Amsterdam and serves as a reviewer for leading journals and funding agencies.\nEmail: emanuele.marino@unipa.it"
+    "text": "Quarto\nGit\nGitHub Pages\nCustom domain: https://marinolab.unipa.it"
   },
   {
-    "objectID": "people.html#faculty",
-    "href": "people.html#faculty",
-    "title": "People",
+    "objectID": "Marino_Lab_Website_Maintenance_Manual.html#standard-workflow",
+    "href": "Marino_Lab_Website_Maintenance_Manual.html#standard-workflow",
+    "title": "Marino Lab Website Maintenance Manual",
     "section": "",
-    "text": "Principal Investigator\nDr. Emanuele Marino is a physicist exploring how nanoscale organization can be harnessed to create materials with emergent optical and electronic functionality. His research centers on nanocrystal self-assembly as a route to programmable superstructures for photonics, optoelectronics, and energy applications.\nBy combining concepts from soft matter physics with advanced materials design, his work seeks to control light–matter interactions through structure, enabling new paradigms in superlattice engineering. He has authored over 30 peer-reviewed publications, including papers in Nature, Science, and Nano Letters, with several featured on journal covers.\nDr. Marino has secured competitive national and European funding (including Horizon Europe) and has conducted experiments at major synchrotron facilities in France and the United States. He has held research appointments at the University of Pennsylvania and the University of Amsterdam and serves as a reviewer for leading journals and funding agencies.\nEmail: emanuele.marino@unipa.it"
+    "text": "Edit .qmd, .css, or image files.\nPreview:\n\nquarto preview\n\nStop preview (Ctrl+C)\nRender:\n\nquarto render\n\nCommit:\n\ngit add .\ngit commit -m \"Describe your changes\"\n\nPublish:\n\ngit push"
   },
   {
-    "objectID": "people.html#phd-students",
-    "href": "people.html#phd-students",
-    "title": "People",
-    "section": "PhD Students",
-    "text": "PhD Students\n\n\n\nSaranya Subramanian\nPhD Student\nSaranya joined the group as a PhD student in 2024. She holds a MSc in chemistry from India. Her focus is to explore non-toxic nanocrystals as solar shapers to improve photosynthetic efficiency of plants. She is particularly interested in supraparticle assembly and enjoys exploring its possibilities for photonics applications. She brings an enthusiastic energy to the group, as well as freshly prepared home-cooked delicacies on special occasions.\nEmail: saranya.subramanian@unipa.it"
+    "objectID": "Marino_Lab_Website_Maintenance_Manual.html#important-files",
+    "href": "Marino_Lab_Website_Maintenance_Manual.html#important-files",
+    "title": "Marino Lab Website Maintenance Manual",
+    "section": "",
+    "text": "_quarto.yml — configuration\nstyles.css — global styling\ncollaborators.css — collaborator styling\nCNAME — custom domain (never delete)\nimages/logo/marinolab-logo.png\nimages/logo/marinolab-favicon.png\n\nNever edit files inside docs/; they are generated automatically."
   },
   {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n\nFrancesco Minutella\nBSc Student\nFrancesco completed his Bachelor’s thesis at the University of Palermo, focusing on the synthesis and characterization of CuInS₂/ZnS nanocrystals.\nHe is currently pursuing his MSc at the University of Pisa, Italy.\n\n\n\n\n\nHira Aman\nMSc Student\nHira completed her Master’s thesis at the University of Palermo, focusing on the solvent-dependent optical properties and aggregation behavior of Cd₃₇S₂₀ nanoclusters using advanced spectroscopic techniques.\nShe is currently pursuing her PhD at the University of Reggio Calabria, Italy."
+    "objectID": "Marino_Lab_Website_Maintenance_Manual.html#git-problems",
+    "href": "Marino_Lab_Website_Maintenance_Manual.html#git-problems",
+    "title": "Marino Lab Website Maintenance Manual",
+    "section": "",
+    "text": "If push is rejected:\ngit pull --rebase origin main\ngit push\nNever use git push --force."
+  },
+  {
+    "objectID": "Marino_Lab_Website_Maintenance_Manual.html#mobile-testing",
+    "href": "Marino_Lab_Website_Maintenance_Manual.html#mobile-testing",
+    "title": "Marino Lab Website Maintenance Manual",
+    "section": "",
+    "text": "Open Chrome:\n\nF12\nCtrl+Shift+M\nSelect Pixel 7\nRefresh"
+  },
+  {
+    "objectID": "Marino_Lab_Website_Maintenance_Manual.html#backups",
+    "href": "Marino_Lab_Website_Maintenance_Manual.html#backups",
+    "title": "Marino Lab Website Maintenance Manual",
+    "section": "",
+    "text": "Zip the entire marino-lab folder after major updates."
+  },
+  {
+    "objectID": "Marino_Lab_Website_Maintenance_Manual.html#never-do",
+    "href": "Marino_Lab_Website_Maintenance_Manual.html#never-do",
+    "title": "Marino Lab Website Maintenance Manual",
+    "section": "",
+    "text": "Delete CNAME\nDelete docs/CNAME\nRename docs\nRemove the custom domain\nEdit generated HTML in docs"
+  },
+  {
+    "objectID": "Marino_Lab_Website_Maintenance_Manual.html#checklist",
+    "href": "Marino_Lab_Website_Maintenance_Manual.html#checklist",
+    "title": "Marino Lab Website Maintenance Manual",
+    "section": "",
+    "text": "Edit\nPreview\nRender\nCommit\nPush\nVerify https://marinolab.unipa.it"
+  },
+  {
+    "objectID": "outreach.html",
+    "href": "outreach.html",
+    "title": "Outreach",
+    "section": "",
+    "text": "Outreach activities…"
   },
   {
     "objectID": "publications.html",
