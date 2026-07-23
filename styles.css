@@ -873,43 +873,80 @@ img {
    ========================================================= */
 
 @media (max-width: 700px) {
+
+  /* Increase the base scale of the whole site */
   html {
-    font-size: 17px;
+    font-size: 19px !important;
   }
 
   body {
-    line-height: 1.75;
+    font-size: 1rem !important;
+    line-height: 1.72;
   }
 
-  main.content {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
+  /* Give text a comfortable margin from the phone edges */
+  main.content,
+  #quarto-content main.content {
+    width: 100%;
+    max-width: none;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
   }
 
-  p,
-  li {
-    font-size: 1rem;
-    line-height: 1.75;
+  /* Body copy */
+  main.content p,
+  main.content li,
+  main.content blockquote {
+    font-size: 1rem !important;
+    line-height: 1.72 !important;
   }
 
-  h1 {
-    font-size: 2rem;
-    line-height: 1.18;
+  /* Page title, for example “Research” */
+  main.content h1,
+  .quarto-title h1,
+  #title-block-header .title {
+    font-size: 2rem !important;
+    line-height: 1.18 !important;
+    margin-bottom: 1rem;
   }
 
-  h2 {
-    font-size: 1.65rem;
-    line-height: 1.25;
+  /* Main section headings */
+  main.content h2 {
+    font-size: 1.55rem !important;
+    line-height: 1.25 !important;
+    margin-top: 2.4rem;
+    margin-bottom: 1rem;
   }
 
-  h3 {
-    font-size: 1.3rem;
-    line-height: 1.3;
+  /* Subsection headings */
+  main.content h3 {
+    font-size: 1.28rem !important;
+    line-height: 1.32 !important;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
   }
 
+  main.content h4 {
+    font-size: 1.12rem !important;
+    line-height: 1.35 !important;
+  }
+
+  /* Captions should remain readable but secondary */
   .figure-caption,
   figcaption {
-    font-size: 0.95rem;
-    line-height: 1.55;
+    font-size: 0.92rem !important;
+    line-height: 1.55 !important;
+  }
+
+  /* Keep figures comfortably wide */
+  .quarto-figure,
+  figure {
+    width: 100%;
+  }
+
+  .quarto-figure img,
+  figure img {
+    max-width: 100%;
+    height: auto;
   }
 }
