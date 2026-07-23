@@ -874,7 +874,7 @@ img {
 
 @media (max-width: 700px) {
 
-  /* Increase the base scale of the whole site */
+  /* Increase the overall mobile type scale */
   html {
     font-size: 19px !important;
   }
@@ -884,7 +884,7 @@ img {
     line-height: 1.72;
   }
 
-  /* Give text a comfortable margin from the phone edges */
+  /* Comfortable spacing from the screen edges */
   main.content,
   #quarto-content main.content {
     width: 100%;
@@ -893,7 +893,7 @@ img {
     padding-right: 1.25rem !important;
   }
 
-  /* Body copy */
+  /* Main body copy */
   main.content p,
   main.content li,
   main.content blockquote {
@@ -901,7 +901,7 @@ img {
     line-height: 1.72 !important;
   }
 
-  /* Page title, for example “Research” */
+  /* Page title */
   main.content h1,
   .quarto-title h1,
   #title-block-header .title {
@@ -914,7 +914,7 @@ img {
   main.content h2 {
     font-size: 1.55rem !important;
     line-height: 1.25 !important;
-    margin-top: 2.4rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
   }
 
@@ -922,7 +922,7 @@ img {
   main.content h3 {
     font-size: 1.28rem !important;
     line-height: 1.32 !important;
-    margin-top: 2rem;
+    margin-top: 2.3rem;
     margin-bottom: 0.8rem;
   }
 
@@ -931,22 +931,45 @@ img {
     line-height: 1.35 !important;
   }
 
-  /* Captions should remain readable but secondary */
+  /* Make figures use the available width */
+  main.content img,
+  .quarto-figure img,
+  figure img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto;
+  }
+
+  .quarto-figure,
+  figure {
+    width: 100%;
+  }
+
+  /* Keep captions readable but secondary */
   .figure-caption,
   figcaption {
     font-size: 0.92rem !important;
     line-height: 1.55 !important;
   }
 
-  /* Keep figures comfortably wide */
-  .quarto-figure,
-  figure {
-    width: 100%;
+  /* Slightly more compact mobile navbar */
+  .navbar {
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
   }
 
-  .quarto-figure img,
-  figure img {
-    max-width: 100%;
-    height: auto;
+  .navbar-logo {
+    max-height: 28px !important;
+    width: auto !important;
+  }
+
+  /* Homepage hero spacing on mobile */
+  .hero-logo {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-logo img {
+    width: min(320px, 82vw) !important;
   }
 }
