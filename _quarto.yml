@@ -6,6 +6,7 @@ project:
     - google67170cbd7615d244.html
 
 website:
+  site-url: https://marinolab.unipa.it
   favicon: images/logo/marinolab-favicon.png
   title: "Marino Lab"
 
