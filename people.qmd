@@ -32,7 +32,24 @@ Email: [emanuele.marino@unipa.it](mailto:emanuele.marino@unipa.it)
 
 ::: {.people-entry}
 
-![](images/Saranya.jpeg)
+![](images/people/Valentin.jpeg)
+
+::: {.people-text}
+
+### Valentin Johannes Hartinger
+
+**PhD Student**
+
+Valentin joined the Marino Lab in 2026 as a PhD student. He holds a Master’s degree in Chemical Engineering from Germany. During his studies he was working part-time in the automotive industry. He is part of the ERC-funded REFINE2LASE project, in which he works on developing a thermal refinement route for producing monodisperse nanocrystals. In his free time, he enjoys cycling and other sports.
+
+Email: [valentinjohannes.hartinger@unipa.it](mailto:valentinjohannes.hartinger@unipa.it)
+
+:::
+:::
+
+::: {.people-entry}
+
+![](images/people/Saranya.jpeg)
 
 ::: {.people-text}
 
@@ -53,7 +70,7 @@ Email: [saranya.subramanian@unipa.it](mailto:saranya.subramanian@unipa.it)
 
 ::: {.people-entry}
 
-![](images/Francesco.jpeg)
+![](images/people/Francesco.jpeg)
 
 ::: {.people-text}
 
@@ -70,7 +87,7 @@ He is currently pursuing his MSc at the University of Pisa, Italy.
 
 ::: {.people-entry}
 
-![](images/Hira.jfif)
+![](images/people/Hira.jfif)
 
 ::: {.people-text}
 

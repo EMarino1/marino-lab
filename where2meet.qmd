@@ -22,7 +22,7 @@ Event: Particle Based Materials Symposium (PBM 2026), University of Duisburg-Ess
 
 Event: Italian Physical Society Meeting (SIF-2026), University of Florence, Florence, Italy.
 
-![](images/visits/SIF-2026.jpg){fig-align="center" width="70%"}
+![](images/visits/Florence-2026-09.png){fig-align="center" width="70%"}
 
 ---
 
@@ -30,7 +30,7 @@ Event: Italian Physical Society Meeting (SIF-2026), University of Florence, Flor
 
 Event: 7th Italian Soft Days Conference (ISoDays), University of Napoli Federico II, Naples, Italy.
 
-![](images/visits/ISoDays.jpg){fig-align="center" width="70%"}
+![](images/visits/Naples-2026-06.png){fig-align="center" width="70%"}
 
 ---
 
