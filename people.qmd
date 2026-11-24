@@ -6,7 +6,7 @@ title: "People"
 
 ::: {.people-entry}
 
-![](images/Emanuele.jfif)
+![](images/people/Emanuele.jfif)
 
 ::: {.people-text}
 
